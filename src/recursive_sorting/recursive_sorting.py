@@ -11,6 +11,9 @@ def merge( arrA, arrB ):
 def merge_sort( arr ):
     # TO-DO
 
+    if len(arr) <= 1:
+        return arr
+
     return arr
 
 
