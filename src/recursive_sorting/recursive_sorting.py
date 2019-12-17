@@ -7,6 +7,9 @@ def merge( arrA, arrB ):
     partA = 0
     partB = 0
 
+# find which element is smaller 
+# add it to the merged array
+# add a new index to the new element added to the array
     for i in range(0, elements):
         if partA >= len(arrA):
             merged_arr[i] = arrB[partB]
